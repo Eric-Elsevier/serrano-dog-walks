@@ -1,0 +1,25 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# Secrets
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Huge/raw source files (keep the web-sized exports in assets/ only)
+*.heic
+*.mov
+*.mp4
+*.zip
+IMG_*.jpeg
+IMG_*.jpg
+
+# Local tooling
+.claude/

@@ -397,6 +397,10 @@
     color: var(--ink-soft);
   }
 
+  footer .credit { margin-top: 6px; }
+  footer .credit a { color: var(--ink-soft); text-decoration-color: var(--line); text-underline-offset: 3px; }
+  footer .credit a:hover { color: var(--gold-deep); }
+
   @media (max-width: 720px) {
     .hero { grid-template-columns: 1fr; }
     .hero-photo { order: -1; }
@@ -527,7 +531,10 @@
     </div>
   </section>
 
-  <footer>Serrano Dog Walks &middot; El Dorado Hills, CA</footer>
+  <footer>
+    <div>Serrano Dog Walks &middot; El Dorado Hills, CA</div>
+    <div class="credit">Site built by <a href="https://lovaniumstudio.com" target="_blank" rel="noopener">Lovanium Studio</a></div>
+  </footer>
 </div>
 
 </body></html>
